@@ -1,0 +1,8 @@
+gradio
+transformers
+spacy
+sumy
+detoxify
+textblob
+gramformer
+torch
