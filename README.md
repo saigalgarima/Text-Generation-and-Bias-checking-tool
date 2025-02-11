@@ -18,6 +18,36 @@ AI Text Generator is a sophisticated tool that leverages artificial intelligence
 - **Bias Detection**: Identifies potential biases in generated text
 - **User-Friendly Interface**: Simple yet powerful Gradio-based UI
 
+## Key Components
+1. Text Generation:
+○ Utilizes the GPT-Neo model (EleutherAI/gpt-neo-125M) to generate
+detailed explanations or descriptions based on the user’s input prompt.
+2. Text Summarization:
+○ Uses the TextRank algorithm from the sumy library to summarize the
+generated content into a more concise form.
+3. Bias Detection:
+○ The Detoxify model is used to check for toxic language in the generated text.
+○ It also flags content containing common bias-related terms (e.g., gender,
+race).
+4. Sentiment Analysis:
+○ A pre-trained DistilBERT model fine-tuned for sentiment analysis is
+employed to classify the sentiment of the generated content as "positive,"
+"negative," or "neutral."
+
+## How to Use
+1. Text Input:
+○ Enter a topic or prompt in the provided input field (e.g., "Explain climate
+change").
+2. Generate Button:
+○ Click the "Generate" button to initiate the text generation, summarization, bias
+detection, and sentiment analysis.
+3. Outputs:
+○ The generated content is displayed in the "Generated Content" box.
+○ The summarized content is shown in the "Summarized Content" box.
+○ Any detected bias or toxicity is flagged in the "Bias Check" box.
+○ The sentiment of the content (positive, negative, or neutral) is displayed in the
+"Sentiment" box
+
 ## Installation
 
 ### Prerequisites
